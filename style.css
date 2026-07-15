@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Minecraft';
-    src: url('/fonts/Minecraft.woff2') format('woff2'),
-        url('/fonts/Minecraft.woff') format('woff');
+    src: url('./fonts/Minecraft.woff2') format('woff2'),
+        url('./fonts/Minecraft.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url("/images/Render.png");
+    background-image: url("./images/Render.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
