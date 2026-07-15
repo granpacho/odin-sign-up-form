@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('/fonts/Minecraft.woff2') format('woff2'),
+        url('/fonts/Minecraft.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/Render.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    gap: 15vh
+}
+
+h1 {
+    font-family: "Minecraft", sans-serif;
+    letter-spacing: 3px;
+    color: rgb(8, 163, 2);
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2);
+    margin-top: 10vh;
+}
+
+#modal {
+    width: 700px;
+    height: 415px;
+    box-shadow: 8px 8px 20px black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+h2 {
+    font-family: "Minecraft", sans-serif;
+    margin: 15px 0px 0px 20px ;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(83, 82, 82, 0.658);
+}
+
+#modal form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    align-content: flex-start;
+    width: 100%;
+    gap: 30px;
+} 
+
+
+#modal div {
+    width: 45%;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+#modal label {
+    font-weight: bold;
+    color: rgb(46, 44, 44);
+}
+
+#modal input,  #modal button {
+    font-family: inherit;
+    width: 100%;
+}
+
+#modal input {
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid grey;
+    height: 35px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#modal input:focus {
+    outline: 1px solid blue;
+}
+
+#modal input:user-invalid {
+    outline: 1px solid red;
+}
+
+#createaccount {
+    align-items: center;
+}
+
+#modal button {
+    font-family: "Minecraft", sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 230px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    padding: 15px 20px;
+}
+
+p {
+    margin: 0 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+}
