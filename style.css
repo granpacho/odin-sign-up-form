@@ -116,6 +116,10 @@ h2 {
     padding: 15px 20px;
 }
 
+#modal button:hover {
+    box-shadow: 0px 0px 10px 1px black;
+}
+
 p {
     margin: 0 0 0 20px;
 }
